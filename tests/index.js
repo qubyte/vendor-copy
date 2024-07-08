@@ -10,7 +10,7 @@ function readFile(relativePath) {
 }
 
 function rmdir(relativePath) {
-  return fs.rmdir(path.join(__dirname, relativePath), { recursive: true });
+  return fs.rm(path.join(__dirname, relativePath), { force: true, recursive: true });
 }
 
 function mkdir(relativePath) {

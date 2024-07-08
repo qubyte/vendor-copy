@@ -11,16 +11,13 @@
     "cli.js"
   ],
   "engines": {
-    "node": ">=12"
-  },
-  "dependencies": {
-    "ncp": "^2.0.0"
+    "node": ">=16.7"
   },
   "devDependencies": {
     "es2015-deferred": "^3.0.0",
     "eslint": "^7.24.0",
     "eslint-config-qubyte": "^4.1.0",
-    "mocha": "^8.3.2",
+    "mocha": "^10.4.0",
     "sandboxed-module": "^2.0.4",
     "sinon": "^10.0.0"
   },
